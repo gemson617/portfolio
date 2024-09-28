@@ -403,9 +403,12 @@ button:hover {
     transition: all 0.5s;
 }
 
-.service-item h4 {
-    transition: all 0.5s;
+.service-item h4,
+.service-item h5,
+.service-item h6 {
+    transition: color 0.3s ease; /* Smooth color transition */
 }
+
 
 .service-item p {
     transition: all 0.5s;
