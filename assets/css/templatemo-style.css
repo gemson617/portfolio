@@ -389,6 +389,24 @@ button:hover {
 }
 
 
+.skills-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.badge {
+    padding: 15px 20px; /* Increased padding */
+    border-radius: 8px; /* Slightly larger border radius */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px; /* Increased font size */
+    min-width: 120px; /* Increased minimum width */
+}
+
+
 /* Services */
 
 .my-services .col-md-6 {
